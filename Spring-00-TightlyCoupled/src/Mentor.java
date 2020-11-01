@@ -1,5 +1,6 @@
 public class Mentor {
 
+//    Composition
     FullTimeMentor fullTimeMentor;
     PartTimeMentor partTimeMentor;
     //MI
