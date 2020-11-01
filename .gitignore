@@ -1,43 +1,89 @@
 ######################
-# Project Specific ###################### /build/www/** /src/test/javascript/coverage/ /src/test/javascript/PhantomJS*/ ######################
-# Node ###################### /node/
-node_tmp/ node_modules/ npm-debug.log.* ###################### # SASS ###################### .sass-cache/
-###################### # Eclipse ###################### *.pydevproject
-.project .metadata tmp/
-tmp/**/* *.tmp
+# Project Specific 
+###################### 
+/build/www/** 
+/src/test/javascript/coverage/ 
+/src/test/javascript/PhantomJS*/ 
+######################
+# Node 
+###################### 
+/node/
+node_tmp/ node_modules/ npm-debug.log.*
+###################### 
+# SASS 
+###################### 
+.sass-cache/
+###################### 
+# Eclipse 
+######################
+*.pydevproject
+.project 
+.metadata 
+tmp/
+tmp/**/* 
+*.tmp
 *.bak
 *.swp
-*~.nib local.properties .classpath
-  .settings/
+*~.nib 
+local.properties 
+.classpath
+.settings/
 .loadpath
-.factorypath /src/main/resources/rebel.xml # External tool builders .externalToolBuilders/**
-# Locally stored “Eclipse launch configurations” *.launch
+.factorypath 
+/src/main/resources/rebel.xml 
+# External tool builders 
+.externalToolBuilders/**
+# Locally stored “Eclipse launch configurations” 
+*.launch
 # CDT-specific
 .cproject
-# PDT-specific .buildpath
- ###################### # Intellij ###################### .idea/
+# PDT-specific 
+.buildpath
+###################### 
+# Intellij 
+###################### 
+.idea/
 *.iml
 *.iws
 *.ipr
 *.ids
 *.orig
 ######################
-# Visual Studio Code ###################### .vscode/ ######################
-# Maven !.mvn/wrapper/maven-wrapper.jar /.mvn/
-/mvnw /mvnw.bat mvnw.cmd
- /log/
+# Visual Studio Code 
+###################### 
+.vscode/ 
+######################
+# Maven 
+!.mvn/wrapper/maven-wrapper.jar 
+/.mvn/
+/mvnw 
+/mvnw.bat 
+mvnw.cmd
+/log/
 *.log*
 target/
-pom.xml.tag pom.xml.releaseBackup pom.xml.next release.properties
-###################### /log/
-/target/ ###################### # Gradle
-   
-  ###################### .gradle/
-/build/ ###################### # Package Files ###################### *.jar
+pom.xml.tag 
+pom.xml.releaseBackup 
+pom.xml.next 
+release.properties
+###################### 
+/log/
+/target/ 
+###################### 
+# Gradle
+###################### 
+.gradle/
+/build/ 
+###################### 
+# Package Files 
+###################### 
+*.jar
 *.war
 *.ear
-*.db ###################### # Windows
- ######################
+*.db 
+###################### 
+# Windows
+######################
 # Windows image file caches
 Thumbs.db
 # Folder config file
@@ -49,24 +95,40 @@ Desktop.ini
 .svn
 # Thumbnails
 ._*
-# Files that might appear on external disk .Spotlight-V100
+# Files that might appear on external disk 
+.Spotlight-V100
 .Trashes
 ######################
 # Directories
 ######################
 /bin/
 /deploy/
- ###################### # Logs ###################### *.log ###################### # Others ###################### *.class
+###################### 
+# Logs 
+###################### 
+*.log 
+###################### 
+# Others 
+###################### 
+*.class
 *.*~
 *~
-.merge_file* ###################### # Gradle Wrapper
-   
-  ###################### !gradle/wrapper/gradle-wrapper.jar ######################
-# Maven Wrapper ###################### !.mvn/wrapper/maven-wrapper.jar ######################
-# ESLint ###################### .eslintcache
+.merge_file* 
+###################### 
+# Gradle Wrapper
+###################### 
+!gradle/wrapper/gradle-wrapper.jar 
+######################
+# Maven Wrapper 
+###################### 
+!.mvn/wrapper/maven-wrapper.jar 
+######################
+# ESLint 
+###################### 
+.eslintcache
 © 2020 GitHub, Inc.
 Terms
- Privacy Security
+Privacy Security
 Status
 Help
 Contact GitHub Pricing
@@ -82,7 +144,7 @@ Help
 Contact GitHub Pricing
 API
 Training
- Blog
+Blog
 About
 © 2020 GitHub, Inc. Terms
 Privacy
@@ -92,5 +154,38 @@ Help
 Contact GitHub Pricing
 API
 Training
-Blog   
+Blog
 About
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
