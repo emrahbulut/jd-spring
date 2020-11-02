@@ -8,6 +8,6 @@
 
     <bean id="partTimeMentor" class="com.cybertek.services.PartTimeMentor" ></bean>
 
-
+    <bean id="mocInterviewMentor" class="com.cybertek.services.MocInterviewMentor"></bean>
 
 </beans>

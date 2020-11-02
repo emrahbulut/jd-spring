@@ -13,8 +13,11 @@ public class CybertekApp {
         // Mentor mentor = (Mentor)container.getBean("partTimeMentor");
 
 //        Second way
+//        ApplicationContext container = new ClassPathXmlApplicationContext("config.xml");
+//        Mentor mentor = container.getBean("fullTimeMentor", Mentor.class);
+
         ApplicationContext container = new ClassPathXmlApplicationContext("config.xml");
-        Mentor mentor = container.getBean("fullTimeMentor", Mentor.class);
+        Mentor mentor = container.getBean("mocInterviewMentor", Mentor.class);
 
         mentor.createAccount();
 
