@@ -5,28 +5,20 @@ import com.cybertek.interfaces.ExtraSessions;
 
 public class Java implements Course {
 
-//    How to imply field
-     public int x;
+    private OfficeHours officeHours;
 
-//    1st way
-//    OfficeHours officeHours;
+    public OfficeHours getOfficeHours() {
+        return officeHours;
+    }
 
-//    We need to create a constructor for Injection if we use constructor approach.
-//    public Java(OfficeHours officeHours) {
-//        this.officeHours = officeHours;
-//    }
-
-//    2nd way
-    ExtraSessions extraSessions;
-
-    public Java(ExtraSessions extraSessions) {
-        this.extraSessions = extraSessions;
+    public void setOfficeHours(OfficeHours officeHours) {
+        this.officeHours = officeHours;
     }
 
     @Override
     public void getTeachingHours() {
 
-        System.out.println("Weekly Teaching Hours: " + (20+ extraSessions.getHours()));
+        System.out.println("Weekly Teaching Hours: " + (20+ officeHours.getHours()));
 
     }
 }
