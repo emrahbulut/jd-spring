@@ -5,8 +5,8 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="java" class="com.cybertek.services.Java">
-<!--        set up constructor inhection-->
-        <constructor-arg ref="officeHours"/>
+<!--        set up setter inhection-->
+        <property name="extraSessions" ref="officeHours"/>
     </bean>
 
     <bean id="selenium" class="com.cybertek.services.Selenium"></bean>
