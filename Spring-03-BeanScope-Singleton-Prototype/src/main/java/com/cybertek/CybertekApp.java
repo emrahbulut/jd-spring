@@ -20,7 +20,6 @@ public class CybertekApp {
 
        System.out.println("Memory Location for the course1: " + course1);
 
-//       need to fix git
 
     }
 
