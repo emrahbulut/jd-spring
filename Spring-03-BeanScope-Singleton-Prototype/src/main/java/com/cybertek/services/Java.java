@@ -8,4 +8,3 @@ public class Java implements Course {
         System.out.println("Weekly Teaching Hours : 20");
     }
 }
-
