@@ -12,13 +12,13 @@ public class CybertekApp {
 
         Course course1 = container.getBean("java", Course.class);
 
-       Course course2 = container.getBean("java", Course.class);
+        Course course2 = container.getBean("java", Course.class);
 
-       System.out.println("Pointing to the same object: " + (course1==course2));
+        System.out.println("Pointing to the same object: " + (course1 == course2));
 
-       System.out.println("Memory Location for the course1: " + course1);
+        System.out.println("Memory Location for the course1: " + course1);
 
-       System.out.println("Memory Location for the course1: " + course1);
+        System.out.println("Memory Location for the course1: " + course1);
 
 
     }
