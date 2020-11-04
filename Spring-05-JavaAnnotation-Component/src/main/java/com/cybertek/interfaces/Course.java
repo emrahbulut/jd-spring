@@ -1,4 +1,4 @@
-package com.cybertek.cybertek.interfaces;
+package com.cybertek.interfaces;
 
 public interface Course {
 
