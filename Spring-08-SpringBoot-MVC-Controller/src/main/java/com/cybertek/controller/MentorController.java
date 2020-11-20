@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/mentor")
 public class MentorController {
 
+//    Requestion mapping directs to /mentor
     @GetMapping("/show")
     public String showForm(){
         return "home";
